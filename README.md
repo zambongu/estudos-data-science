@@ -1,2 +1,1 @@
-# estudos-data-science
-Repositório pessoal para estudos e projetos de Ciência de Dados
+"# Estudos de Ci�ncia de Dados ??" 
