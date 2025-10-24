@@ -1,6 +1,8 @@
-x = [1,2,3,4,5]
+"""Exemplo variavel global"""
 
-print(x[0])  # Acessa o primeiro elemento da lista
-print(x[2])  # Acessa o terceiro elemento da lista
+codigo = "123321" # Variavel global
 
-print(x[-1]) # Acessa o último elemento da lista
+def testar():
+    print(f'dentro da funcao testar(), codigo = {codigo}') # Acessando variavel global
+testar()
+print(f'fora da funcao testar(), codigo = {codigo}') # Acessando variavel global
